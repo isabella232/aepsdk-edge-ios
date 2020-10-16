@@ -15,7 +15,7 @@ import Foundation
 struct ExperiencePlatformConstants {
     private init() {}
 
-    static let eventTypeExperiencePlatform = "com.adobe.eventType.experiencePlatform"
+    static let eventTypeExperiencePlatform = "com.adobe.eventType.edge"
     static let eventTypeAdobeHub = "com.adobe.eventType.hub"
 
     static let eventSourceAdobeSharedState = "com.adobe.eventSource.sharedState"
@@ -61,7 +61,7 @@ struct ExperiencePlatformConstants {
             private init() {}
 
             static let stateOwner = "com.adobe.module.configuration"
-            static let experiencePlatformConfigId = "experiencePlatform.configId"
+            static let experiencePlatformConfigId = "edge.configId"
             static let experienceCloudOrgId = "experienceCloud.org"
         }
 
